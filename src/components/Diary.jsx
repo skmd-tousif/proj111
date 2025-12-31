@@ -10,7 +10,10 @@ const Diary = () => {
     // Page 0: Dec 2025
     {
       title: "December 2025",
-      content: "Day 1: We met! That spark in your eyes... From friendly chats to my heart whispering 'stay close forever.' Let's turn this attachment into something beautiful. Wrote this for you—our story starts here. 💕"
+      content: `December 2025
+Day 1: Our first conversation. I remember being nervous, and you made me feel calm. Those "best of luck" wishes before interviews, the "tum lunch kar lena" reminders—small gestures that showed you care. Thank you for being you. 💝
+
+Mid-December: Our late-night talks became my favorite part of the day. Sharing stories, laughing about silly things, feeling comfortable just being ourselves. These conversations have been truly special. ✨`,
     },
     // Pages 1-12: 2026 months (empty with message)
     ...Array.from({ length: 12 }, (_, i) => ({
